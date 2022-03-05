@@ -1,6 +1,6 @@
 use bytes::{Buf, BufMut, BytesMut};
 
-use crate::utils::KCP_HEAD_LEN;
+use crate::kcp::utils::KCP_HEAD_LEN;
 
 // 0               4   5   6       8 (BYTE)
 // +---------------+---+---+-------+
